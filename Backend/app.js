@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 app.use('/', taskRoutes);
 
-mongoose.connect(process.env.MONGO_URI || 'mongodb://localhost:27017/tasks-db', {
+mongoose.connect(process.env.MONGO_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 })
