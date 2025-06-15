@@ -14,8 +14,8 @@ export default function ButtonDelete() {
 const styles = StyleSheet.create({
   buttonContainer: {
     flexDirection: 'row',
-    justifyContent: 'space-between', // ou 'center'
-    gap: 10, // si ton environnement le supporte
+    justifyContent: 'space-between',
+    gap: 10,
     padding: 10,
   },
 });
